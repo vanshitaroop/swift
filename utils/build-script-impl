@@ -1299,7 +1299,7 @@ function calculate_targets_for_host() {
 }
 
 
-COMMON_C_FLAGS=" -Wno-unknown-warning-option -Werror=unguarded-availability-new"
+# COMMON_C_FLAGS=" -Wno-unknown-warning-option -Werror=unguarded-availability-new"
 
 # Convert to an array.
 eval COMMON_CMAKE_OPTIONS=(${COMMON_CMAKE_OPTIONS})
